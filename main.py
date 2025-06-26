@@ -1,4 +1,4 @@
-import sys
+import sys # import sys module so we can get rid of a hardcoded book_path
 from stats import ( # import functions defined in other file
     get_num_words, 
     get_chars_dict, 
@@ -7,7 +7,7 @@ from stats import ( # import functions defined in other file
 
 
 def main(): # this will be executed on 'python3 main.py'
-    if len(sys.argv) != 2: # check if filepath got specified
+    if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
     book_path = sys.argv[1] # path to file that we want to analyze

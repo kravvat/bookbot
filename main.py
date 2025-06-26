@@ -1,3 +1,4 @@
+import sys
 from stats import ( # import functions defined in other file
     get_num_words, 
     get_chars_dict, 
@@ -6,7 +7,11 @@ from stats import ( # import functions defined in other file
 
 
 def main(): # this will be executed on 'python3 main.py'
-    book_path = "books/frankenstein.txt" # path to file that we want to analyze
+    if len(sys.argv) != 2: # check if filepath got specified
+        print("Usage: python3 main.py <path_to_book>")
+        sys.exit(1)
+    book_path = sys.argv[1] # path to file that we want to analyze
+
     text = get_book_text(book_path) # file as a string
     num_words = get_num_words(text) # word count
     chars_dict = get_chars_dict(text) # dictionary with chars as keys and their count as values

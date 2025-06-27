@@ -36,6 +36,12 @@ Built as a beginner-friendly project to reinforce core programming skills, modul
 
 ---
 
+## 🖥️ Sample CLI Output
+
+![BookBot](https://github.com/user-attachments/assets/bf05c171-d1ec-4385-89a9-7d1841f5d237)
+
+---
+
 ## 📚 License
 
 This project is open for educational use. Attribution appreciated if reused.  

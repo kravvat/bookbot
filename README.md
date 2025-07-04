@@ -45,6 +45,7 @@ Built as a beginner-friendly project to reinforce core programming skills, modul
 ## 📚 License
 
 This project is open for educational use. Attribution appreciated if reused.  
+
 The idea and initial specification for this project come from the [Boot.dev](https://boot.dev) course *"Backend Developer Path"*.
 
 ---

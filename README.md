@@ -1,6 +1,3 @@
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
-
-
 # 🤖 BookBot
 
 A lightweight Python CLI app that scans `.txt` books and generates a simple textual report.
